@@ -1,0 +1,28 @@
+[Version 1]
+
+Selected Method:
+Logistic Regression
+
+Feature List:
+food_rating -    Sub-rating for food served.
+service_rating - Sub-rating for service provided.
+U_interest -     Ordinal, user's interest.
+U_personality -  Nominal, user's personality.
+R_franchise -    [B] Is the location a franchise?
+match_quiet -    [B] Matches user's desired ambience?
+match_dress -    [B] Matches user's desired dress code?
+days_open -      Number of days open per week.
+avg_hours -      Average hours operational per day.
+proximity -      Based on physical closeness between user and location.
+price_score -    Score based on how well price matches user's budget.
+payment_score -  Score based on number of payment methods accepted.
+alcohol_score -  Score based on drinking level vs. alcohol provided.
+smoking_score -  Score based on smoking catering vs. smoking practice.
+parking_score -  Score based on how well location matches user's transport.
+cuisine_score -  Score based on overlap in user preferences with available food.
+
+[Version 2]
+['RATING', 'revID', 'food_rating', 'service_rating', 'R_accessibility', 'R_franchise',
+ 'R_services', 'R_open_area', 'U_activity', 'U_married', 'U_age', 'proximity', 'days_open',
+ 'smoking_score', 'U_smoker', 'alcohol_score', 'match_quiet', 'match_dress', 'U_personality',
+ 'cuisine_score']
